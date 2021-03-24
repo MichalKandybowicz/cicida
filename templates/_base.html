@@ -24,6 +24,7 @@
       <h5 class="my-0 mr-md-auto font-weight-normal">
           <a href="{% url 'home' %}">Home</a>
           <a href="{% url 'about' %}">About</a>
+          <a href="{% url 'team' %}">Team</a>
           {% if user.is_authenticated %}
 {#          <a class="p-2 text-dark" href="{% url 'my-trades' %}">My trades</a>#}
           {% endif %}
